@@ -2,16 +2,16 @@ RSA CIPHER: KEY SELECTION WORKSHEET
 
 PRIME TESTER
 NUMBER,Is it Prime Number?
-7,=IF(A3<2,"No",IF(A3=2,"Yes",IF(MOD(A3,2)=0,"No",IF(SUMPRODUCT(MOD(A3,ROW(INDIRECT("2:"&INT(SQRT(A3)))))=0)>0,"No","Yes"))))
+,=IF(A3<2,"No",IF(A3=2,"Yes",IF(MOD(A3,2)=0,"No",IF(SUMPRODUCT(MOD(A3,ROW(INDIRECT("2:"&INT(SQRT(A3)))))=0)>0,"No","Yes"))))
 
 RSA PARAMETERS
-FIRST PRIME,7
-SECOND PRIME,11
-Modulus,=B9*B10
-Euler Totient (φ),=(B9-1)*(B10-1)
-PUBLIC KEY (e),7
-PRIVATE KEY (d),43
+FIRST PRIME,=IF(B9="","",B9)
+SECOND PRIME,=IF(B10="","",B10)
+Modulus (n),=IF(OR(B9="",B10=""),"",B9*B10)
+Euler Totient (φ),=IF(OR(B9="",B10=""),"",(B9-1)*(B10-1))
+PUBLIC KEY (e),
+PRIVATE KEY (d),=IF(OR(B12="",B13=""),"",MOD(POWER(B13,-1),B14))
 
 VERIFICATION
-Calculation Check,OK
-Result,0
+(e * d) mod φ,=IF(OR(B13="",B14="",B15=""),"",MOD(B13*B15,B14))
+Calculation Status,=IF(B17="","",IF(B17=1,"OK","ERROR"))
