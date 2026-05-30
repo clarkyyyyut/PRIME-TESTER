@@ -1,0 +1,17 @@
+RSA Cipher: Key Selection Worksheet
+
+PRIME TESTER
+NUMBER	Is it Prime Number?
+17	Yes
+
+RSA PARAMETERS
+FIRST PRIME	17
+SECOND PRIME	19
+Modulus (n)	323
+Euler Totient (φ)	288
+Public Exponent (e)	5
+PRIVATE KEY (d)	173
+
+VERIFICATION
+(e * d) mod φ	1
+Calculation Status	OK
