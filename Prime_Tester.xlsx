@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<Worksheet name="Prime Tester">
+<SheetData>
+<Row r="1">
+<Cell r="A1" t="str"><Value>PRIME NUMBER TESTER</Value></Cell>
+</Row>
+<Row r="2"/>
+<Row r="3">
+<Cell r="A3" t="str"><Value>Instructions:</Value></Cell>
+</Row>
+<Row r="4">
+<Cell r="A4" t="str"><Value>1. Enter a number in the 'Number' column</Value></Cell>
+</Row>
+<Row r="5">
+<Cell r="A5" t="str"><Value>2. The Prime Tester will check if it's a prime number</Value></Cell>
+</Row>
+<Row r="6">
+<Cell r="A6" t="str"><Value>3. Enter numbers below, start from row 8</Value></Cell>
+</Row>
+<Row r="7"/>
+<Row r="8">
+<Cell r="A8" t="str"><Value>NUMBER</Value></Cell>
+<Cell r="B8" t="str"><Value>Is It Prime?</Value></Cell>
+<Cell r="C8" t="str"><Value>Prime Factors</Value></Cell>
+<Cell r="D8" t="str"><Value>Notes</Value></Cell>
+</Row>
+<Row r="9">
+<Cell r="A9" t="n"><Value>7</Value></Cell>
+<Cell r="B9" t="str"><Value>Yes</Value></Cell>
+<Cell r="C9" t="str"><Value>Prime</Value></Cell>
+<Cell r="D9" t="str"><Value>First Prime</Value></Cell>
+</Row>
+<Row r="10">
+<Cell r="A10" t="n"><Value>11</Value></Cell>
+<Cell r="B10" t="str"><Value>Yes</Value></Cell>
+<Cell r="C10" t="str"><Value>Prime</Value></Cell>
+<Cell r="D10" t="str"><Value>Second Prime</Value></Cell>
+</Row>
+<Row r="11">
+<Cell r="A11" t="n"><Value>77</Value></Cell>
+<Cell r="B11" t="str"><Value>No</Value></Cell>
+<Cell r="C11" t="str"><Value>7, 11</Value></Cell>
+<Cell r="D11" t="str"><Value>n = p × q</Value></Cell>
+</Row>
+<Row r="12">
+<Cell r="A12" t="n"><Value>13</Value></Cell>
+<Cell r="B12" t="str"><Value>Yes</Value></Cell>
+<Cell r="C12" t="str"><Value>Prime</Value></Cell>
+<Cell r="D12" t="str"><Value></Value></Cell>
+</Row>
+<Row r="13">
+<Cell r="A13" t="n"><Value>91</Value></Cell>
+<Cell r="B13" t="str"><Value>No</Value></Cell>
+<Cell r="C13" t="str"><Value>7, 13</Value></Cell>
+<Cell r="D13" t="str"><Value>n = p × q</Value></Cell>
+</Row>
+<Row r="14">
+<Cell r="A14" t="n"><Value>8</Value></Cell>
+<Cell r="B14" t="str"><Value>No</Value></Cell>
+<Cell r="C14" t="str"><Value>2, 2, 2</Value></Cell>
+<Cell r="D14" t="str"><Value></Value></Cell>
+</Row>
+<Row r="15">
+<Cell r="A15" t="n"><Value>43</Value></Cell>
+<Cell r="B15" t="str"><Value>Yes</Value></Cell>
+<Cell r="C15" t="str"><Value>Prime</Value></Cell>
+<Cell r="D15" t="str"><Value>Public Key (e)</Value></Cell>
+</Row>
+<Row r="16"/>
+<Row r="17">
+<Cell r="A17" t="str"><Value>RSA CIPHER: Key Information</Value></Cell>
+</Row>
+<Row r="18">
+<Cell r="A18" t="str"><Value>FIRST PRIME</Value></Cell>
+<Cell r="B18" t="n"><Value>7</Value></Cell>
+</Row>
+<Row r="19">
+<Cell r="A19" t="str"><Value>SECOND PRIME</Value></Cell>
+<Cell r="B19" t="n"><Value>11</Value></Cell>
+</Row>
+<Row r="20">
+<Cell r="A20" t="str"><Value>n = p × q</Value></Cell>
+<Cell r="B20" t="n"><Value>77</Value></Cell>
+</Row>
+<Row r="21">
+<Cell r="A21" t="str"><Value>φ(n) = (p-1)(q-1)</Value></Cell>
+<Cell r="B21" t="n"><Value>60</Value></Cell>
+</Row>
+<Row r="22">
+<Cell r="A22" t="str"><Value>PUBLIC KEY (e)</Value></Cell>
+<Cell r="B22" t="n"><Value>7</Value></Cell>
+</Row>
+<Row r="23">
+<Cell r="A23" t="str"><Value>PRIVATE KEY (d)</Value></Cell>
+<Cell r="B23" t="n"><Value>43</Value></Cell>
+</Row>
+</SheetData>
+</Worksheet>
+</Workbook>
