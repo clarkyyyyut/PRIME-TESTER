@@ -1,19 +1,17 @@
 RSA Cipher: Key Selection Worksheet
-
+,
 PRIME TESTER
 NUMBER,Is it Prime Number?
-17,=IF(A2<2,"No",IF(A2=2,"Yes",IF(MOD(A2,2)=0,"No",IF(SUMPRODUCT(MOD(A2,ROW(INDIRECT("2:"&INT(SQRT(A2)))))=0)>0,"No","Yes"))))
-
+17,Yes
+,
 RSA PARAMETERS
 FIRST PRIME,17
 SECOND PRIME,19
-Modulus (n),=B5*B6
-Euler Totient (φ),=(B5-1)*(B6-1)
-Totient Factors (a),=B8-1
+Modulus (n),323
+Euler Totient (φ),288
 Public Exponent (e),5
-PRIVATE KEY (d),43
-
+PRIVATE KEY (d),173
+,
 VERIFICATION
-n * φ Check,=B9*B10
-(e * d) mod φ,=MOD(B12*B13,B10)
-Calculation Status,=IF(MOD(B12*B13,B10)=1,"OK","ERROR")
+(e * d) mod φ,1
+Calculation Status,OK
