@@ -1,0 +1,24 @@
+PRIME TESTER CALCULATOR
+
+Enter Number to Test:,
+NUMBER,17
+
+IS IT PRIME?,=IF(B3<2,"No",IF(B3=2,"Yes",IF(MOD(B3,2)=0,"No",IF(SUMPRODUCT(MOD(B3,ROW(INDIRECT("2:"&INT(SQRT(B3)))))=0)>0,"No","Yes"))))
+
+TEST RESULTS
+Number,Result
+2,=IF(B7<2,"No",IF(B7=2,"Yes",IF(MOD(B7,2)=0,"No",IF(SUMPRODUCT(MOD(B7,ROW(INDIRECT("2:"&INT(SQRT(B7)))))=0)>0,"No","Yes"))))
+3,=IF(B8<2,"No",IF(B8=2,"Yes",IF(MOD(B8,2)=0,"No",IF(SUMPRODUCT(MOD(B8,ROW(INDIRECT("2:"&INT(SQRT(B8)))))=0)>0,"No","Yes"))))
+5,=IF(B9<2,"No",IF(B9=2,"Yes",IF(MOD(B9,2)=0,"No",IF(SUMPRODUCT(MOD(B9,ROW(INDIRECT("2:"&INT(SQRT(B9)))))=0)>0,"No","Yes"))))
+7,=IF(B10<2,"No",IF(B10=2,"Yes",IF(MOD(B10,2)=0,"No",IF(SUMPRODUCT(MOD(B10,ROW(INDIRECT("2:"&INT(SQRT(B10)))))=0)>0,"No","Yes"))))
+11,=IF(B11<2,"No",IF(B11=2,"Yes",IF(MOD(B11,2)=0,"No",IF(SUMPRODUCT(MOD(B11,ROW(INDIRECT("2:"&INT(SQRT(B11)))))=0)>0,"No","Yes"))))
+13,=IF(B12<2,"No",IF(B12=2,"Yes",IF(MOD(B12,2)=0,"No",IF(SUMPRODUCT(MOD(B12,ROW(INDIRECT("2:"&INT(SQRT(B12)))))=0)>0,"No","Yes"))))
+17,=IF(B13<2,"No",IF(B13=2,"Yes",IF(MOD(B13,2)=0,"No",IF(SUMPRODUCT(MOD(B13,ROW(INDIRECT("2:"&INT(SQRT(B13)))))=0)>0,"No","Yes"))))
+19,=IF(B14<2,"No",IF(B14=2,"Yes",IF(MOD(B14,2)=0,"No",IF(SUMPRODUCT(MOD(B14,ROW(INDIRECT("2:"&INT(SQRT(B14)))))=0)>0,"No","Yes"))))
+23,=IF(B15<2,"No",IF(B15=2,"Yes",IF(MOD(B15,2)=0,"No",IF(SUMPRODUCT(MOD(B15,ROW(INDIRECT("2:"&INT(SQRT(B15)))))=0)>0,"No","Yes"))))
+29,=IF(B16<2,"No",IF(B16=2,"Yes",IF(MOD(B16,2)=0,"No",IF(SUMPRODUCT(MOD(B16,ROW(INDIRECT("2:"&INT(SQRT(B16)))))=0)>0,"No","Yes"))))
+
+INSTRUCTIONS
+1. Change the number in cell B3 to any number you want to test
+2. The formula in B4 will automatically show "Yes" if prime or "No" if not prime
+3. The test results table shows examples of common numbers
